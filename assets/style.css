@@ -473,7 +473,7 @@ body {
 }
 
 .projectsSliderItem {
-    min-width: 388px ;
+    min-width: 388px;
     height: 100%;
     background: var(--color-white);
     border-radius: var(--space-12);
@@ -655,11 +655,104 @@ body {
 .FAQBlock {
     width: 800px;
     min-height: 628px;
-    background-color: green;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     gap: var(--space-40);
 }
+
+.FAQBlock__header {
+    width: 127px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-8);
+    background: var(--color-white);
+}
+
+.FAQBlock__icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100px;
+    background: #00B1890D;
+    color: var(--color-primary);
+    font-size: var(--font-size-xlarge);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FAQBlock__title {
+    font-size: var(--font-size-xlarge);
+    font-weight: 400;
+    line-height: var(--space-32);
+    color: var(--color-textHeading);
+}
+
+.FAQBlock__questionsWrapper {
+    width: 800px;
+    height: 492px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-12);
+}
+
+.FAQBlock__questionItem {
+    width: 800px;
+    min-height: 72px;
+    padding: var(--space-8) var(--space-12);
+    /* border-bottom: 1px solid rgb(16, 185, 185); */
+    border-bottom: 1px solid;
+
+    /* border-image: linear-gradient(90deg, rgba(79, 174, 139, 0) -2.88%, #4FAE8B 50.59%, rgba(79, 174, 139, 0) 104.06%); */
+    border-image: linear-gradient(to right  ,transparent , #4FAE8B ,transparent) 1  0;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FAQBlock__questionPart {
+    width: 776px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-8);
+}
+
+.FAQBlock__questionText {
+    width: 744px;
+    height: 24px;
+    color: var(--color-textHeading);
+    font-size: var(--font-size-normal);
+    line-height: var(--space-24);
+    font-weight: 400;
+    text-align: right;
+}
+
+.FAQBlock__questionIcon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* .FAQBlock__answerText {
+    width: ;
+    height: ;
+    background: ;
+    display: ;
+    flex-direction: ;
+    justify-content: ;
+    align-items: ;
+    gap: ;
+} */
