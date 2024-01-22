@@ -13,13 +13,12 @@
   <link rel='stylesheet'
     href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-straight/css/uicons-solid-straight.css'>
   <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./assets/responsive.css">
 </head>
 
 <body>
   <div class="container">
-    <header class="header">
-      <img class="header__homeSliderImage" src="./assets/Image/Home-Slider.Wamin.svg" alt="homeSliderImage" />
-    </header>
+    <header class="header"></header>
 
     <main class="main">
       <section class="presentation">
@@ -49,25 +48,36 @@
               حقوقمون</span> به صورت ماهانه به <span class="presentation__startPlanText--greenText">پروژه‌ی خیرخواهانه
             </span>موردعلاقه‌مون.</p>
           <div class="presentation__startPlanItems">
-            <div class="presentation__startPlanItem">
-              <i class="presentation__startPlanItemIcon  presentation__startPlanItemIcon--login fi fi-sr-user"></i>
-              <span class="presentation__startPlanItemText">وارد شو</span>
+
+            <div class="firstRow">
+
+              <div class="presentation__startPlanItem">
+                <i class="presentation__startPlanItemIcon  presentation__startPlanItemIcon--login fi fi-sr-user"></i>
+                <span class="presentation__startPlanItemText">وارد شو</span>
+              </div>
+              <div class="presentation__startPlanItem">
+                <i
+                  class="presentation__startPlanItemIcon  presentation__startPlanItemIcon--project fi fi-sr-assept-document"></i>
+                <span class="presentation__startPlanItemText">پروژه‌تو انتخاب کن</span>
+              </div>
+
             </div>
-            <div class="presentation__startPlanItem">
-              <i
-                class="presentation__startPlanItemIcon  presentation__startPlanItemIcon--project fi fi-sr-assept-document"></i>
-              <span class="presentation__startPlanItemText">پروژه‌تو انتخاب کن</span>
-            </div>
-            <div class="presentation__startPlanItem">
-              <i
-                class="presentation__startPlanItemIcon  presentation__startPlanItemIcon--money fi fi-sr-money-bill-wave"></i>
-              <span class="presentation__startPlanItemText">مبلغ رو تعیین کن</span>
-            </div>
-            <div class="presentation__startPlanItem">
-              <i
-                class="presentation__startPlanItemIcon  presentation__startPlanItemIcon--withUs fi fi-rs-check-circle"></i>
-              <span class="presentation__startPlanItemText">بقیه‌ش با ما</span>
-            </div>
+
+<div class="secondRow">
+
+  <div class="presentation__startPlanItem">
+    <i
+      class="presentation__startPlanItemIcon  presentation__startPlanItemIcon--money fi fi-sr-money-bill-wave"></i>
+    <span class="presentation__startPlanItemText">مبلغ رو تعیین کن</span>
+  </div>
+  <div class="presentation__startPlanItem">
+    <i
+      class="presentation__startPlanItemIcon  presentation__startPlanItemIcon--withUs fi fi-rs-check-circle"></i>
+    <span class="presentation__startPlanItemText">بقیه‌ش با ما</span>
+  </div>
+
+</div>
+
           </div>
           <button class="presentation__startPlanBtn">
             <span>برای شروع کلیک کن</span>
@@ -354,7 +364,6 @@
             </div>
             <p class="FAQBlock__answerText"></p>
           </div>
-
 
         </section>
       </section>

@@ -1,0 +1,140 @@
+@media(max-width:390px) {
+    body {
+        width: 100%;
+        background-color: deeppink;
+        /* display: block; */
+        /* justify-content: flex-end; */
+    }
+
+    .container {
+        width: 100%;
+        /* max-width: 390px; */
+        background-color: yellow;
+        /* gap: 0; */
+    }
+
+    .header {
+        background: purple;
+        width: 390px;
+        height: 293px;
+        background: url(./Image/Home-Page.MheaderMobile.svg);
+    }
+
+
+    .main {
+        width: 358px;
+        height: 1540px;
+        background: purple;
+    }
+
+    .presentation {
+        width: 342px;
+        width: 666px;
+        background-color: orangered;
+    }
+
+    .presentation__videoSection {
+        width: 100%;
+        height: 350px;
+        background-color: red;
+    }
+
+    .presentation__header {
+        width: 338px;
+        height: 122px;
+    }
+
+    .presentation__title {
+        font-size: var(--font-size-huge);
+        line-height: var(--space-36);
+    }
+
+    .presentation__video {
+        width: 342px;
+        height: 363px;
+    }
+
+
+    .presentation__startPlanSection {
+        width: 342px;
+        height: 268px;
+        padding: var(--space-20) var(--space-12);
+        border-radius: var(--space-12);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: var(--space-24);
+        background: linear-gradient(216.85deg, rgba(0, 177, 18, 0.05) 30.34%, rgba(0, 113, 162, 0.05) 96.4%);
+        background: yellow;
+    }
+
+    .presentation__startPlanText {
+        width: 318px;
+        height: 64px;
+        color: var(--color-textDark);
+        font-size: var(--font-size-normal);
+        font-weight: 400;
+        line-height: var(--space-48);
+        letter-spacing: -0.5px;
+        background: deeppink;
+    }
+
+    .presentation__startPlanItems {
+        width: 318px;
+        height: 68px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: var(--space-20);
+        background: green;
+    }
+
+    .presentation__startPlanItem {
+    flex: 1;
+    }
+
+    .firstRow,
+    .secondRow{
+        width: 100%;
+        gap: 48px;
+        justify-content: center;
+    }
+
+    .presentation__startPlanItemText {
+        font-size: var(--font-size-xsmall);
+        line-height: var(--space-24);
+        letter-spacing: -0.5px;
+        font-weight: 700;
+    }
+
+    .presentation__startPlanBtn {
+        width: 232px;
+        height: 48px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
