@@ -75,7 +75,7 @@
         color: var(--color-textDark);
         font-size: var(--font-size-normal);
         font-weight: 400;
-        line-height: var(--space-48);
+        line-height: var(--space-36);
         letter-spacing: -0.5px;
         background: deeppink;
     }
