@@ -528,7 +528,6 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: yellow;
 }
 
 .projectsSliderItem__Description {
@@ -547,6 +546,7 @@ body {
     width: 389px;
     height: 72px;
     padding: var(--space-20);
+    border-top: 1px solid var(--color-border);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -624,9 +624,7 @@ body {
 }
 
 .FAQBlock {
-    /* width: 800px; */
-    width: 64.11%;
-    background-color: yellow;
+    width: 800px;
     min-height: 628px;
     display: flex;
     flex-direction: column;
@@ -667,7 +665,7 @@ body {
 
 .FAQBlock__questionsWrapper {
     width: 800px;
-    height: 492px;
+    /* height: 492px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -697,12 +695,16 @@ body {
 
 .FAQBlock__questionText {
     width: 744px;
-    height: 24px;
+    min-height: 24px;
     color: var(--color-textHeading);
     font-size: var(--font-size-normal);
     line-height: var(--space-24);
     font-weight: 400;
     text-align: right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .FAQBlock__questionIcon {
