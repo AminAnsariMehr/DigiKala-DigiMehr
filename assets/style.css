@@ -465,6 +465,40 @@ body {
     display: none;
 }
 
+.nextSlideIcon,
+.perviousSlideIcon{
+    width: 40px;
+    height: 40px;
+    background: var(--color-white);
+    border: 1px solid var(--color-N200);
+    border-radius: 999px;
+
+    position: absolute;
+    transform: translateY(-50%);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextSlideIcon
+{
+    top:50%;
+    left:1%;
+    font-size: 20px;
+}
+
+.perviousSlideIcon{
+    top:50%;
+    right:0;
+}
+
 .projectsSliderItem {
     min-width: 386px;
     height: 100%;
@@ -665,7 +699,6 @@ body {
 
 .FAQBlock__questionsWrapper {
     width: 800px;
-    /* height: 492px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
