@@ -53,10 +53,10 @@ body {
     width: 32px;
     height: 30px;
     background:var(--color-primary) ;
+    border-radius: 2px 12px 12px 1px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 2px 12px 12px 1px;
 }
 
 .digiMehrLogoWrapper__insideLogo{
@@ -74,11 +74,11 @@ body {
     background: var(--color-white);
     border: 1px solid var(--color-N200);
     border-radius: var(--space-8);
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: var(--space-12);
-    cursor: pointer;
 }
 
 .signInProfileBtn__signInIcon{
@@ -98,9 +98,9 @@ body {
 .header {
     width: 100%;
     height: 266px;
+    margin-bottom: var(--space-48);
     background: url(./Image/Home-Slider.Wamin.svg);
     background-repeat: no-repeat;
-    margin-bottom: var(--space-48);
 }
 /*------------------------------------------------ End Of Header ------------------------------------------------*/
 
@@ -147,8 +147,8 @@ body {
 
 .presentation__title {
     color: var(--color-textDark);
-    font-weight: 400;
     font-size: var(--font-size-xhuge);
+    font-weight: 400;
     line-height: var(--space-48);
     text-align: center;
     letter-spacing: -0.5px;
@@ -199,19 +199,19 @@ body {
 .presentation__startPlanSection {
     width: 100%;
     padding: var(--space-24);
+    background: linear-gradient(216.85deg, rgba(0, 177, 18, 0.05) 30.34%, rgba(0, 113, 162, 0.05) 96.4%);
     border-radius: var(--space-12);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     gap: var(--space-24);
-    background: linear-gradient(216.85deg, rgba(0, 177, 18, 0.05) 30.34%, rgba(0, 113, 162, 0.05) 96.4%);
 }
 
 .presentation__startPlanText {
+    color: var(--color-textDark);
     font-weight: 400;
     font-size: var(--font-size-huge);
-    color: var(--color-textDark);
     letter-spacing: -0.5px;
     line-height: var(--space-48);
     text-align: center;
@@ -237,9 +237,9 @@ body {
 .secondRow{
     width: 50%;
     display: flex;
-    gap: var(--space-48);
     justify-content: space-between;
     align-items: center;
+    gap: var(--space-48);
 }
 
 .presentation__startPlanItem {
@@ -261,22 +261,22 @@ body {
 }
 
 .presentation__startPlanItemIcon--login {
-    color: #545409;
+    color: var(--color-homeIcon1);
     background: linear-gradient(158.66deg, #EFEDEC 3.16%, #F9FBF3 100.67%);
 }
 
 .presentation__startPlanItemIcon--project {
-    color: #233104;
+    color: var(--color-homeIcon2);
     background: linear-gradient(161.84deg, #F5FBE9 5.39%, #F6F9EF 100.76%);
 }
 
 .presentation__startPlanItemIcon--money {
-    color: #064242;
+    color: var(--color-homeIcon3);
     background: linear-gradient(156.61deg, #F8FCEE 6.4%, #F4FAFC 94.45%);
 }
 
 .presentation__startPlanItemIcon--withUs {
-    color: #038857;
+    color: var(--color-homeIcon4);
     background: linear-gradient(146.36deg, #DCF5EC 4.7%, #EFF9F5 91.33%);
 }
 
@@ -284,23 +284,23 @@ body {
 .presentation__startPlanItemText {
     color: var(--color-textDark);
     font-size: var(--font-size-normal);
-    letter-spacing: -0.5px;
     font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
 .presentation__startPlanBtn {
     width: 232px;
     height: 48px;
-    border-radius: var(--space-12);
-    background-color: var(--color-primary);
     color: var(--color-white);
+    background: var(--color-primary);
+    font-size: var(--font-size-large);
+    line-height: calc(var(--font-size-normal) + var(--font-size-tiny));
+    border-radius: var(--space-12);
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: var(--space-8);
-    font-size: var(--font-size-large);
-    line-height: calc(var(--font-size-normal) + var(--font-size-tiny));
-    cursor: pointer;
 }
 
 /*--------------------------------------------- End Of Presentation ---------------------------------------------*/
@@ -334,10 +334,10 @@ body {
     width: 100%;
     color: var(--color-white);
     font-size: var(--font-size-xhuge);
-    text-align: center;
-    font-weight: 700;
-    letter-spacing: -0.5px;
     line-height: var(--space-48);
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -0.5px;
 }
 
 .partnershipBlock__dataBox {
@@ -382,17 +382,13 @@ body {
     gap: var(--space-12);
 }
 
-/* .partnershipBlock__dynamicMembersNumber{
-    
-} */
-
 .partnershipBlock__staticMembersDescription--smallFont {
     height: var(--space-24);
     font-size: var(--font-size-small);
-    text-align: right;
-    font-weight: 400;
-    letter-spacing: -0.5px;
     line-height: var(--space-24);
+    font-weight: 400;
+    text-align: right;
+    letter-spacing: -0.5px;
 }
 
 .partnershipBlock__lastMembers {
@@ -400,8 +396,7 @@ body {
     height: 112px;
     padding: var(--space-12);
     color: var(--color-white);
-    border-radius: var(--space-12);
-    
+    border-radius: var(--space-12);    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -414,7 +409,7 @@ body {
     font-size: var(--font-size-small);
     line-height: var(--space-24);
     letter-spacing: -0.5px;
-    text-align: right
+    text-align: right;
 }
 
 .partnershipBlock__lastTwinMembers {
@@ -432,17 +427,17 @@ body {
 }
 
 .partnershipBlock__lastMembersIcon {
-    font-size: var(--font-size-large);
     width: var(--space-20);
     height: var(--space-20);
+    font-size: var(--font-size-large);
 }
 
 .partnershipBlock__lastMembersName {
-    font-weight: 300;
+    color: var(--color-white);
     font-size: var(--font-size-small);
     line-height: var(--space-20);
+    font-weight: 300;
     text-align: right;
-    color: var(--color-white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -467,7 +462,6 @@ body {
 
 .partnershipBlock__projects::after,
 .partnershipBlock__projects::before {
-
     content: ' ';
     width: 100%;
     height: 1px;
@@ -524,6 +518,7 @@ body {
 
 .nextSlideIcon,
 .perviousSlideIcon{
+    color: var(--color-N700);
     width: 40px;
     height: 40px;
     background: var(--color-white);
@@ -532,23 +527,17 @@ body {
 
     position: absolute;
     transform: translateY(-50%);
-    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .nextSlideIcon
 {
+    font-size: var(--font-size-large);
     top:50%;
     left:1%;
-    font-size: 20px;
 }
 
 .perviousSlideIcon{
@@ -611,10 +600,10 @@ i{
 .projectsSliderItem__Title {
     width: 329px;
     height: 64px;
-    font-weight: 700;
     color: var(--color-N700);
     font-size: var(--font-size-large);
     line-height: var(--space-32);
+    font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -622,15 +611,15 @@ i{
 }
 
 .projectsSliderItem__Description {
-    font-weight: 400;
+    width: 337px;
+    height: 75px;
     color: var(--color-textLight);
     font-size: var(--font-size-small);
     line-height: var(--space-24);
-    width: 337px;
-    height: 75px;
-    overflow: hidden;
+    font-weight: 400;
     letter-spacing: -0.5px;
     text-align: right;
+    overflow: hidden;
 }
 
 .projectsSliderItem__BtnWrapper {
@@ -646,16 +635,16 @@ i{
 .projectsSliderItem__BtnMoreLearn {
     width: 349px;
     height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--color-white);
     color: var(--color-primary);
+    background: var(--color-white);
     border: 1px solid var(--color-primary);
     border-radius: var(--space-8);
     font-size: var(--font-size-xsmall);
     font-weight: 700;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .partnershipBlock__startProjectBtn {
@@ -663,10 +652,10 @@ i{
     height: 48px;
     color: var(--color-textDark);
     background: var(--color-white);
+    border-radius: var(--space-12);
     font-size: var(--font-size-large);
     line-height: calc(var(--font-size-normal) + var(--font-size-tiny));
     font-weight: 400;
-    border-radius: var(--space-12);
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -708,18 +697,13 @@ i{
 }
 
 .partnershipBlock__aboutPartnershipText {
-    font-weight: 400;
     font-size: var(--font-size-xsmall);
     line-height: var(--font-size-huge);
+    font-weight: 400;
     letter-spacing: -0.5px;
 }
 
 /*------------------------------------------ End Of Partnership Block -------------------------------------------*/
-
-
-
-
-
 
 
 
@@ -736,31 +720,31 @@ i{
 
 .FAQBlock__header {
     width: 127px;
+    background: var(--color-white);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: var(--space-8);
-    background: var(--color-white);
 }
 
 .FAQBlock__icon {
     width: 56px;
     height: 56px;
-    border-radius: 100px;
-    background: #00B1890D;
     color: var(--color-primary);
+    background: #00B1890D;
     font-size: var(--font-size-xlarge);
+    border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .FAQBlock__title {
-    font-size: var(--font-size-xlarge);
-    font-weight: 400;
-    line-height: var(--space-32);
     color: var(--color-textHeading);
+    font-size: var(--font-size-xlarge);
+    line-height: var(--space-32);
+    font-weight: 400;
 }
 
 .FAQBlock__questionsWrapper {
@@ -774,7 +758,6 @@ i{
 
 .FAQBlock__questionItem {
     width: 800px;
-    min-height: 72px;
     padding: var(--space-8) var(--space-12);
     border-bottom: 1px solid;
     border-image: linear-gradient(to right, transparent, #4FAE8B, transparent) 50;
@@ -800,18 +783,18 @@ i{
     font-weight: 400;
     text-align: right;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-wrap: wrap;
 }
 
 .FAQBlock__questionIcon {
     width: 24px;
     height: 24px;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 
 /* .FAQBlock__answerText {
