@@ -13,6 +13,10 @@
         padding: 0;
     }
 
+.signInProfileBtn{
+    display: none;
+}
+
     .header {
         width: 390px;
         height: 293px;

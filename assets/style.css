@@ -29,20 +29,84 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: var(--space-48);
+    /* gap: var(--space-48); */
+}
+/*--------------------------- Start Of NavBar ---------------------------*/
+.navBar{
+    width: 100%;
+    padding: var(--space-16) ;
+    background: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.digiMehrLogoTitleWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-10);
+}
+
+.digiMehrLogoWrapper__wrapperLogo{
+    width: 32px;
+    height: 30px;
+    background:var(--color-primary) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px 12px 12px 1px;
+}
+
+.digiMehrLogoWrapper__insideLogo{
+    width: 19.79px;
+    height: 17.48px;
+}
+
+.digiMehrLogoWrapper__titleName{
+    width: 141.35px;
+    height: 20.6px;    
+}
+
+.signInProfileBtn{
+    padding: 5px var(--space-16);
+    background: var(--color-white);
+    border: 1px solid var(--color-N200);
+    border-radius: var(--space-8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-12);
+    cursor: pointer;
+}
+
+.signInProfileBtn__signInIcon{
+    font-size: var(--font-size-normal);
+}
+
+.signInProfileBtn__text{
+    font-weight: 400;
+    font-size: var(--font-size-tiny);
+    line-height: 26px;
+}
+
+/*---------------------------- End Of NavBar ----------------------------*/
+
+
+/*--------------------------- Start Of Header ---------------------------*/
 .header {
     width: 100%;
     height: 266px;
     background: url(./Image/Home-Slider.Wamin.svg);
     background-repeat: no-repeat;
+    margin-bottom: var(--space-48);
 }
+/*---------------------------- End Of Header ----------------------------*/
 
 
 .main {
     width: 100%;
-    height: 3092px;
+    /* height: 3092px; */
     padding: 0 var(--space-16);
     display: flex;
     justify-content: flex-start;
@@ -60,6 +124,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: var(--space-48);
+    background-color: red;
 }
 
 .presentation__videoSection {
@@ -253,6 +318,7 @@ body {
     justify-content: space-between;
     align-items: center;
     border-radius: var(--space-12);
+    background-color: green;
 }
 
 .lineSeprator {
@@ -451,7 +517,6 @@ body {
 }
 
 .partnershipBlock__projectsSliderWrapper {
-    position: relative;
     width: 100%;
     height: 448px;
     display: flex;
