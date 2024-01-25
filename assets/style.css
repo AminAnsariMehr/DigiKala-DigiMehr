@@ -231,11 +231,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: var(--space-48);
 }
 
 .firstRow,
 .secondRow{
-    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;

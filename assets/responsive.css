@@ -11,10 +11,14 @@
         max-width: 390px;
     }
 
-    .digiMehrLogoTitleWrapper{
+    .navBar {
+        width: 100%;
+    }
+
+    .digiMehrLogoTitleWrapper {
         position: relative;
     }
-    
+
     .digiMehrLogoWrapper__wrapperLogo {
         width: 25.86px;
         height: 24px;
@@ -38,7 +42,6 @@
     }
 
     .header {
-        width: 390px;
         height: 293px;
         background: url(./Image/Home-Page.MheaderMobile.svg);
     }
@@ -51,18 +54,18 @@
     }
 
     .presentation {
-        width: 342px;
+        width: 100%;
         justify-content: space-between;
     }
 
     .presentation__videoSection {
-        width: 342px;
+        width: 100%;
         height: auto;
     }
 
     .presentation__header {
-        width: 338px;
-        height: 122px;
+        width: 100%;
+        max-width: 338px;
     }
 
     .presentation__title {
@@ -70,14 +73,17 @@
         line-height: var(--space-36);
     }
 
+    .presentation__description {
+        width: 100%;
+    }
+
     .presentation__video {
-        width: 342px;
         height: 226px;
     }
 
     .presentation__startPlanSection {
-        width: 342px;
-        height: 268px;
+        width: 100%;
+        height: auto;
         padding: var(--space-20) var(--space-12);
         display: flex;
         flex-direction: column;
@@ -88,7 +94,7 @@
     }
 
     .presentation__startPlanText {
-        width: 318px;
+        height: 100%;
         color: var(--color-textDark);
         font-size: var(--font-size-normal);
         font-weight: 400;
@@ -97,8 +103,8 @@
     }
 
     .presentation__startPlanItems {
-        width: 318px;
-        height: 68px;
+        width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -119,6 +125,8 @@
     }
 
     .presentation__startPlanItemText {
+        width: 100%;
+        height: 100%;
         font-size: var(--font-size-xsmall);
         line-height: var(--space-24);
         letter-spacing: -0.5px;
@@ -131,8 +139,6 @@
     }
 
     .partnershipBlock {
-        width: 358px;
-        height: 1540px;
         padding: var(--space-32) var(--space-16) var(--space-16);
         justify-content: flex-start;
         gap: var(--space-32);
@@ -143,7 +149,7 @@
     }
 
     .partnershipBlock__dataBox {
-        width: 318px;
+        width: 100%;
         height: auto;
         flex-direction: column;
         gap: var(--space-24);
@@ -161,7 +167,22 @@
     }
 
     .partnershipBlock__membersNumber {
+        width: 100%;
+        height: auto;
         align-items: center;
+    }
+
+    .partnershipBlock__staticMembersDescription--smallFont {
+        width: 100%;
+        height: auto;
+    }
+
+    .partnershipBlock__lastTwinMembers {
+        width: 100%;
+    }
+
+    .partnershipBlock__lastMembers {
+        width: 100%;
     }
 
     .partnershipBlock__projects {
@@ -211,8 +232,13 @@
         width: 100%;
     }
 
+
     .partnershipBlock__aboutPartnershipWrapper {
-        width: 326px;
+        width: 100%;
+    }
+
+    .partnershipBlock__aboutPartnershipWrapper {
+        width: 100%;
         height: auto;
         padding: var(--space-16);
         flex-direction: column;
@@ -225,6 +251,7 @@
     }
 
     .partnershipBlock__aboutPartnershipText {
+        width: 100%;
         letter-spacing: 0;
     }
 
@@ -240,9 +267,37 @@
         width: 100%;
     }
 
+    .FAQBlock__questionPart {
+        width: 100%;
+    }
+
     .FAQBlock__questionText {
         width: 294px;
         font-size: var(--font-size-small);
     }
 
+}
+
+
+@media(max-width:360px){
+.presentation__startPlanItems{
+    gap: var(--space-8);
+}
+
+    .firstRow,
+    .secondRow{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    gap: var(--space-8);
+    }
+
+
+   .partnershipBlock__startProjectBtn,
+   .presentation__startPlanBtn {
+        width: 100%;
+        min-height: 48px;
+        height: auto;
+        flex-wrap: wrap;
+    }
 }
